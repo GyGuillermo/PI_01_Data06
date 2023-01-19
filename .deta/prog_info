@@ -1,0 +1,1 @@
+{"id":"2f122516-e3d2-483c-8b3e-7ab18e552806","space":48369,"runtime":"python3.9","name":"PI_01_Data06","path":"vpt3u4","project":"e0duizkh","account":"144798365827","region":"sa-east-1","deps":["fastapi","pandas","polars"],"envs":null,"public":true,"log_level":"debug","cron":""}
