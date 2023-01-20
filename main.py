@@ -4,7 +4,6 @@ import os
 import traceback
 import polars as pl
 
-
 app = FastAPI()
 
 # 1 - Definimos una ruta
