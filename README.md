@@ -9,16 +9,27 @@ Data Engineering
 
 
 Descripción del problema (Contexto y rol a desarrollar)
+
+
 Contexto
+
+
 Application Programming Interface es una interfaz que permite que dos aplicaciones se comuniquen entre sí, independientemente de la infraestructura subyacente. Son herramientas muy versátiles que permiten por ejemplo, crear pipelines facilitando mover y brindar acceso simple a los datos que se quieran disponibilizar a través de los diferentes endpoints, o puntos de salida de la API.
 
 Hoy en día contamos con FastAPI, un web framework moderno y de alto rendimiento para construir APIs con Python.
 
+
 Rol a desarrollar
+
+
 Como parte del equipo de data de una empresa, el área de análisis de datos le solicita al área de Data Engineering (usted) ciertos requerimientos para el óptimo desarrollo de sus actividades. Usted deberá elaborar las transformaciones requeridas y disponibilizar los datos mediante la elaboración y ejecución de una API.
 
 Propuesta de trabajo (requerimientos de aprobación)
-Transformaciones: El analista de datos requiere estas, y solo estas, transformaciones para sus datos:
+
+
+Transformaciones: 
+
+El analista de datos requiere estas, y solo estas, transformaciones para sus datos:
 
 Generar campo id: Cada id se compondrá de la primera letra del nombre de la plataforma, seguido del show_id ya presente en los datasets (ejemplo para títulos de Amazon = as123)
 
@@ -31,7 +42,9 @@ Los campos de texto deberán estar en minúsculas, sin excepciones
 El campo duration debe convertirse en dos campos: duration_int y duration_type. El primero será un integer y el segundo un string indicando la unidad de medición de duración: min (minutos) o season (temporadas)
 
 
-Desarrollo API: Para disponibilizar los datos la empresa usa el framework FastAPI. El analista de datos requiere consultar:
+Desarrollo API:
+
+Para disponibilizar los datos la empresa usa el framework FastAPI. El analista de datos requiere consultar:
 
 Cantidad de veces que aparece una keyword en el título de peliculas/series, por plataforma
 
@@ -44,5 +57,7 @@ Película que más duró según año, plataforma y tipo de duración
 Cantidad de series y películas por rating
 
 
-Deployment: La empresa suele usar Deta (no necesita dockerizacion) para realizar el deploy de sus aplicaciones. Sin embargo, también puede usar Railway y Render (necesitan dockerizacion).
+Deployment: 
+
+La empresa suele usar Deta (no necesita dockerizacion) para realizar el deploy de sus aplicaciones. Sin embargo, también puede usar Railway y Render (necesitan dockerizacion).
 
