@@ -8,13 +8,13 @@ Este proyecto tiene como objetivo automatizar las transformaciones necesarias y 
 
 ## Transformaciones
 
-Generación de un campo id único para cada plataforma, compuesto por la primera letra del nombre de la plataforma y el show_id ya presente en los datasets.Reemplazo de valores nulos en el campo rating por el string "G" (corresponde al maturity rating: "general for all audiences").
+* Generación de un campo id único para cada plataforma, compuesto por la primera letra del nombre de la plataforma y el show_id ya presente en los datasets.Reemplazo de valores nulos en el campo rating por el string "G" (corresponde al maturity rating: "general for all audiences").
 
-Conversión de las fechas a formato AAAA-mm-dd.
+* Conversión de las fechas a formato AAAA-mm-dd.
 
-Conversión de los campos de texto a minúsculas.
+* Conversión de los campos de texto a minúsculas.
 
-División del campo duration en dos campos: duration_int y duration_type. El primero será un integer y el segundo un string indicando la unidad de medición de duración: min (minutos) o season (temporadas)
+* División del campo duration en dos campos: duration_int y duration_type. El primero será un integer y el segundo un string indicando la unidad de medición de duración: min (minutos) o season (temporadas)
 
 ## API
 
