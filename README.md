@@ -21,11 +21,11 @@ Este proyecto tiene como objetivo automatizar las transformaciones necesarias y 
 Para disponibilizar los datos, se ha desarrollado una API utilizando el framework FastAPI. 
 Esta API permite realizar consultas como:
 
-Cantidad de veces que aparece una keyword en el título de peliculas/series, por plataforma
+* Cantidad de veces que aparece una keyword en el título de peliculas/series, por plataforma
 
-Cantidad de películas por plataforma con un puntaje mayor a XX en determinado añoLa segunda película con mayor score para una plataforma determinada, según el orden alfabético de los títulos.
+* Cantidad de películas por plataforma con un puntaje mayor a XX en determinado añoLa segunda película con mayor score para una plataforma determinada, según el orden alfabético de los títulos.
 
-Película que más duró según año, plataforma y tipo de duraciónCantidad de series y películas por rating
+* Película que más duró según año, plataforma y tipo de duraciónCantidad de series y películas por rating
 
 ## Deployment
 
@@ -35,18 +35,18 @@ Para llevar a cabo el deploy de la aplicación, se ha utilizado Deta. Sin embarg
 
 Para ejecutar este proyecto, es necesario tener instalado:
 
-Python 3.6 o superior
-Las librerías especificadas en el archivo requirements.txt
+* Python 3.6 o superior
+* Las librerías especificadas en el archivo requirements.txt
 
 ## Instrucciones de ejecución
 
-Clonar este repositorio en su máquina local
+* Clonar este repositorio en su máquina local
 
-Instalar las dependencias necesarias ejecutando pip install -r requirements.txt en la carpeta del proyecto
+* Instalar las dependencias necesarias ejecutando pip install -r requirements.txt en la carpeta del proyecto
 
-Ejecutar el archivo main.py para iniciar la API
+* Ejecutar el archivo main.py para iniciar la API
 
-Acceder a la URL especificada en la consola para utilizar la API
+* Acceder a la URL especificada en la consola para utilizar la API
 
 
 
